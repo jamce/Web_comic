@@ -11,7 +11,7 @@
 	
 	<script>
 	window.onbeforeunload = function () {
-      //doLMSSetValue("cmi.core.lesson_status", "completed"); // uncomment this line if you want this activity to be completed with any attempt
+      doLMSSetValue("cmi.core.lesson_status", "completed"); // uncomment this line if you want this activity to be completed with any attempt
       SCORMdoLMSCommit();
       SCORMdoLMSFinish();
     };
